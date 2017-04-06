@@ -1,0 +1,49 @@
+/*Creates background and sets body font, size, and color.*/
+body {
+    background-image: url('pixel.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1600px 1200px;
+    font-family: 'Baloo Chettan', serif;
+    font-size: 18px;
+        color: white;
+}
+
+/*Creates Custom Cursor*/
+body, html {
+    cursor: url(shipCursor.png), pointer;
+}
+
+/*Centers Generator Button*/
+#generatorButton {
+    text-align: center;
+    margin: auto;
+
+/*Give Generator Button default color and shape.*/
+}.generatorButtonStyle{
+	background-color: #E908DC;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	border-radius: 4px;
+	border: thin solid #FFFDFF;
+	padding: 20px;
+	color: #663300;
+	width: 120px;
+}
+
+/*Give Generator Button color and shape when mouse hovers over it.*/
+.generatorButtonStyle:hover {
+	color: #0F30D9;
+	cursor: pointer;
+	border: thin solid #FF9700;
+	background-color: #08EAD2;
+}
+
+/*Give Generator Button color and shape when clicked.*/
+.generatorButtonStyle:active {
+	color: #FF0000;
+	cursor: pointer;
+	border: thin solid #99CC00;
+	background-color: #08FF00;
+}
